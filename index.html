@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad obligatoria - Dayana Bernal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\estilos.css">
+</head>
+<body>
+    <!--Control de barra de navegación-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Codo a Codo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Desactivado</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--Tarjetas de cursos-->
+      <div class="card-group d-flex flex-wrap ">
+        <div class="card">
+          <img src="img\html5.jpg" class="card-img-top tamaño_img" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">HTML</h5>
+            <p class="card-text">El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos.</p>
+            <p class="card-text"><small class="text-muted">Última actualización hace 1 minuto</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img\css3.png" class="card-img-top tamaño_img" alt="css">
+          <div class="card-body">
+            <h5 class="card-title">CSS</h5>
+            <p class="card-text">CSS en español Hojas de estilo en cascada, es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje.</p>
+            <p class="card-text"><small class="text-muted">Última actualización hace 1 minuto</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img\bootstrap.png" class="card-img-top tamaño_img" alt="bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap</h5>
+            <p class="card-text">Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.</p>
+            <p class="card-text"><small class="text-muted">Última actualización hace 1 minuto</small></p>
+          </div>
+        </div>
+      </div>
+      <!--Formulario de contacto-->        
+      <form action="" class="form">
+        <div>
+          <label for="correo" class="form-label">Email</label>
+          <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" aria-describedby="recordatorioEmail">
+        </div>
+        <div id="ayudaEmail" class="form-text mb-3">
+          <small>Nunca comparta su email.</small>
+      </div>
+        <div class="mb-3">
+          <label for="clave" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="clave" placeholder="Ingrese su contraseña"></input>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="cheklist">
+          <label class="form-check-label" for="checklist">
+            Verificar
+          </label>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+        </div>
+      </form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+</body>
+</html>
